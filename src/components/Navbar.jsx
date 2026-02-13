@@ -13,7 +13,7 @@ function Navbar () {
             <Link className="list flex px-1 py-1" to="/"><FaHome className="icons text-2xl mx-2"/> Home</Link>
             <Link className="list flex px-1 py-1" to="/about"><FaUser className="icons text-2xl mx-2"/> About</Link>
             <Link className="list flex px-1 py-1" to="/skills"><FaBrain className="icons text-2xl mx-2"/> Skills</Link>
-            <Link className="list flex px-1 py-1" to="/project"><FaBook className="icons text-2xl mx-2"/> Project</Link>
+            {/* <Link className="list flex px-1 py-1" to="/project"><FaBook className="icons text-2xl mx-2"/> Project</Link> */}
             
             <span></span>
            </ul>

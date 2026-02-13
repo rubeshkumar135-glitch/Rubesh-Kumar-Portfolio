@@ -5,9 +5,10 @@ import TAILWINDCSS from "../assets/TAILWINDCSS.png"
 import JAVASCRIPT from "../assets/JAVASCRIPT.png"
 import REACT from "../assets/REACT.png"
 import NODEJS from "../assets/NODEJS.png"
-import MYSQL from "../assets/MYSQL.jpeg"
+import MYSQL from "../assets/MYSQL.png"
 import EXPRESS from "../assets/EXPRESS.png"
 import MONGODB from "../assets/MONGODB.png"
+import GIT from "../assets/GIT.png"
 import "./Skills.css"
 import Footer from "./Footer";
 
@@ -53,6 +54,10 @@ function Skills () {
         {
             img:MONGODB,
             name:"MONGODB"
+        },
+        {
+            img:GIT,
+            name:"GIT"
         }
 
     ];
@@ -76,7 +81,7 @@ function Skills () {
                     alt={`img-${index}`}
                     className="scroll-image"
                     />
-                    <p className="text-container text-gray-50 text-center md:text-xl text-sm font-semibold">{src.name}</p>
+                    <p className="text-container text-gray-50 text-center pr-5 md:text-lg text-sm font-semibold">{src.name}</p>
                 </div>
                 ))}
             </div>
