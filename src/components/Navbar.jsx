@@ -5,9 +5,9 @@ import "./Navbar.css";
 
 function Navbar () {
     return (
-        <div className="navbar flex  justify-between md:px-10 sm:px-15 py-7 ">
+        <div className="navbar flex  justify-between md:px-10 px-8 py-7 ">
            <Link to="/">
-             <p className="md:text-4xl sm:text-3xl font-semibold text-red-600 md:px-10 sm:px-8">Rubesh Kumar R</p>
+             <p className="md:text-4xl text-2xl font-semibold text-red-600 md:px-10 ">Rubesh Kumar R</p>
            </Link>
            <ul className=" text-gray-50  text-lg md:flex sm:hidden gap-5">
             <Link className="list flex px-1 py-1" to="/"><FaHome className="icons text-2xl mx-2"/> Home</Link>

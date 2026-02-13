@@ -13,19 +13,19 @@ function Home () {
        <div>
         <Navbar/>
        </div>
-       <div className="text-gray-50 w-full flex md:flex-row sm:w-full flex-col justify-evenly">
-        <div className="md:my-auto sm:mx-auto sm:mt-10">
-            <h1 className="md:text-6xl sm:text-4xl pb-3 font-bold">
-                <div className="md:text-4xl sm:text-2xl pb-3">Hello, It's me</div>
+       <div className="text-gray-50 md:w-full flex md:flex-row w-full flex-col justify-evenly">
+        <div className="md:my-auto mx-auto sm:mt-10">
+            <h1 className="md:text-6xl text-3xl pb-3 pt-5 font-bold">
+                <div className="md:text-4xl text-xl pb-3">Hello, It's me</div>
                 RUBESH KUMAR R
             </h1>
-            <h2 className="md:text-4xl sm:text-2xl pb-5 font-semibold">And I'm a 
+            <h2 className="md:text-4xl text-lg pb-5 font-semibold">And I'm a 
                 <span className="contant pl-2" style={{"--i":3}} data-text="Frontend Developer">Frontend Developer</span>
                 <span className="contant pl-2" style={{"--i":2}} data-text="Backend Developer">Backend Developer</span>
                 <span className="contant pl-2" style={{"--i":1}} data-text="React Developer">React Developer</span>
             </h2>
-            <div className="flex">
-                <div className="btn py-2 md:px-10 sm:px-5 mr-3 text-gray-950 bg-red-600 border-red-600 border-2 rounded-3xl font-semibold">
+            <div className="flex md:flex-row flex-col">
+                <div className="btn py-2 md:px-10 md:w-46 w-36 md:mb-0 mb-3 px-5 mr-3 text-gray-950 bg-red-600 border-red-600 border-2 rounded-3xl font-semibold">
                     <a  href="#">Download CV</a>
                 </div>
                 <div className="flex  my-2">
@@ -36,7 +36,7 @@ function Home () {
                 </div>
             </div>
         </div>+
-        <div className="md:w-100 sm:w-70 sm:mx-auto">
+        <div className="md:w-100 w-70 mx-auto">
             <img src={Hero}/>
         </div>
        </div>

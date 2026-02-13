@@ -63,8 +63,8 @@ function Skills () {
                 <Navbar/>
             </div>
             <div className="text-gray-50 text-center mx-auto mt-10 md:w-6/8 sm:4/8">
-                <p className="md:text-5xl sm:text-4xl pb-6 font-semibold"><span className="text-red-600">MY</span> Skills</p>
-                <p className="text-xl">{content}</p>
+                <p className="md:text-5xl text-4xl pb-6 font-semibold"><span className="text-red-600">MY</span> Skills</p>
+                <p className="md:text-xl text-sm md:px-0 px-3 ">{content}</p>
             </div>
             {<div className="scroll-container">
             <div className="scroll-content">
@@ -76,12 +76,12 @@ function Skills () {
                     alt={`img-${index}`}
                     className="scroll-image"
                     />
-                    <p className="text-container text-gray-50 text-center text-xl font-semibold">{src.name}</p>
+                    <p className="text-container text-gray-50 text-center md:text-xl text-sm font-semibold">{src.name}</p>
                 </div>
                 ))}
             </div>
         </div>}
-        <div className="pb-5">
+        <div className="md:pb-5 pb-0 md:px-0 px-4">
             <ShowImage/>
         </div>
         <div>

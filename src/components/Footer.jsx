@@ -3,10 +3,10 @@ import "./Footer.css"
 
 function Footer () {
     return (
-        <div className="footer text-gray-50 md:flex sm:flex py-1 md:justify-center sm:justify-center ">
-            <div className="border px-2 font-bold mx-3 rounded-full">C</div>
-            <div className="mx-3 font-semibold">Rubesh kumar R .</div>
-            <div className="mx-3 font-semibold">All right reversed</div>
+        <div className="footer text-gray-50 md:flex flex py-1 md:justify-center justify-center ">
+            <div className="border px-2 font-bold md:mx-3 mx-1 rounded-full">C</div>
+            <div className="md:mx-3 mx-1 font-semibold">Rubesh kumar R .</div>
+            <div className="md:mx-3mx-1 font-semibold">All right reversed</div>
         </div>
     )
 }
