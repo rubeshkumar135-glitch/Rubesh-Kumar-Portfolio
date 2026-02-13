@@ -1,0 +1,14 @@
+.navbar{
+    border-bottom:2px red solid;
+}
+.list{
+    border-bottom:2px rgb(31, 30, 30) solid ;
+    transition: .5s;
+
+}
+.list:hover{
+    color: red;
+    border-radius: 8px;
+    border-bottom: 2px red solid;
+    transition: 1s;
+}

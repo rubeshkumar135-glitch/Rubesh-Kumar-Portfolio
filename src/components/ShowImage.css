@@ -1,0 +1,9 @@
+.btn{
+    border: red 2px solid;
+    transition: .5s;
+}
+.btn:hover{
+    background-color: black;
+    color: #ffffff;
+    transition: .5s;
+}

@@ -1,0 +1,98 @@
+
+.scroll-container {
+  margin: 100px 0;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+.scroll-content {
+  display: flex;
+  width: max-content;
+  animation: scroll 20s linear infinite;
+}
+
+.scroll-image {
+  width: 130px;
+  height: 130px;
+  margin-right: 25px;
+  flex: 0 0 auto;
+}
+
+
+
+@media (max-width: 640px){
+    .scroll-image{
+        width: 120px;
+        height: 120px;
+        margin-right: 8px;
+    }
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+.text-container{
+  background:linear-gradient(to right,rgb(255, 0, 0), rgb(202, 83, 9), rgb(215, 23, 23), rgba(128, 128, 128, 0.584), rgb(41, 35, 35));
+  background-size:200%;
+  background-clip: text;
+  -webkit-backdrop-clip:text;
+  -webkit-text-fill-color: transparent;
+  animation: animation-gradient 2.5s linear infinite;
+}
+@keyframes animation-gradient {
+  to {
+    background-position:200% ;
+  }
+}
+.btn{
+    transition: .5s;
+}
+.btn:hover{
+    background-color: red;
+    color: #ffffff;
+    transition: .5s;
+}
+.certificate a::before{
+  content: 'Certificate';
+  position: absolute;
+  margin-top: -10px ;
+  font-weight:600;
+  background-color: red;
+  color: white;
+  padding:0.5em 1em;
+  border-radius: 100px;
+  box-shadow: 0 5px 10px rgba(red, green, blue, alpha);
+  transform: translateX(-150px) rotate(25deg);
+  opacity: 0;
+}
+
+.certificate a::after{
+  content: '';
+  position: absolute;
+  height: 0;
+  width: 0;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid red;
+  border-top: 10px solid transparent;
+  margin-top:-15px ;
+  transform: translateX(-46px) rotate(0);
+  opacity: 0;
+}
+
+.certificate a:hover::before{
+  transform: translateX(-150px) rotate(0);
+  opacity: 1;
+
+}
+
+.certificate a:hover::after{
+  transform: translateX(-46px) rotate(0);
+  opacity: 1;
+}

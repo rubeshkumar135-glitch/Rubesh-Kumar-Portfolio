@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(31, 30, 30);
+}
+.socilaMediaIcons1{
+    margin: 0 10px;
+    transition: .5s;
+}
+.socilaMediaIcons1:hover{
+    color:rgb(107, 207, 107) ;
+}
+.socilaMediaIcons2{
+    margin: 0 10px;
+    transition: .5s;
+}
+.socilaMediaIcons2:hover{
+    color:gray ;
+}
+.socilaMediaIcons3{
+    margin: 0 10px;
+    transition: .5s;
+}
+.socilaMediaIcons3:hover{
+    color:rgb(72, 72, 232) ;
+}
+.socilaMediaIcons4{
+    margin: 0 10px;
+    transition: .5s;
+}
+.socilaMediaIcons4:hover{
+    color:rgb(246, 104, 9) ;
+}
+.btn{
+    transition: .5s;
+}
+.btn:hover{
+    background-color: rgb(31, 30, 30);
+    color: #ffffff;
+    transition: 1s;
+}
+.contant{
+    position: relative;
+    display: inline-block;
+    color: transparent;
+    -webkit-text-stroke: .7px red;
+    animation: display-text 15s linear infinite;
+    animation-delay: calc(-5s * var(--i));
+}
+@keyframes display-text {
+ 25%,100%{
+    display: none;
+ }
+}
+.contant::before{
+    content: attr(data-text);
+    position: absolute;
+    width: 0;
+    border-right: 2px solid red;
+    color: red;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: fill-text 4s linear infinite;
+}
+@keyframes fill-text{
+    10%,100%{
+        width: 0;
+    }
+    70%,90%{
+        width: 100%;
+    }
+}
