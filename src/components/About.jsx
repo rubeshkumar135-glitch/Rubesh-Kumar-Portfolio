@@ -27,7 +27,7 @@ function About () {
                 </div>
             </div>
 
-            <div className="absolute bottom-0 right-0 left-0">
+            <div>
                 <Footer/>
             </div>
         </div>

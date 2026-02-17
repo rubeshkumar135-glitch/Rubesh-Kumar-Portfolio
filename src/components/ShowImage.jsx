@@ -6,7 +6,7 @@ function ShowImage() {
   const [show, setShow] = useState(false);
 
   return (
-    <div className="flex flex-col items-center mb-3">
+    <div className="flex flex-col items-center  mb-3">
       
       <button
         onClick={() => setShow(!show)}

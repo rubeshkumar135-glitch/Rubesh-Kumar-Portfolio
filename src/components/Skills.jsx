@@ -67,7 +67,7 @@ function Skills () {
             <div>
                 <Navbar/>
             </div>
-            <div className="text-gray-50 text-center mx-auto mt-10 md:w-6/8 sm:4/8 relative">
+            <div className="text-gray-50 text-center mx-auto mt-10 md:w-6/8 sm:4/8">
                 <p className="md:text-5xl text-4xl pb-6 font-semibold"><span className="text-red-600">MY</span> Skills</p>
                 <p className="md:text-xl text-sm md:px-0 px-3 ">{content}</p>
             </div>
@@ -86,10 +86,10 @@ function Skills () {
                 ))}
             </div>
         </div>}
-        <div className="md:pb-5 pb-0 md:px-0 px-4">
+        <div className="md:pb-5 pb-15 md:px-0 px-4">
             <ShowImage/>
         </div>
-        <div className="absolute bottom-0 right-0 left-0">
+        <div >
             <Footer/>
         </div>
         </>
