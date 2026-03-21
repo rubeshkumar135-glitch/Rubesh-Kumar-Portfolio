@@ -4,7 +4,7 @@ import "./Home.css"
 import { FaGithub, FaLinkedin, FaMailBulk } from "react-icons/fa";
 import { FaSquarePhone } from "react-icons/fa6";
 import Hero from "../assets/Hero.png"
-import Footer from "./Footer";
+
 
 
 function Home () {
@@ -13,13 +13,13 @@ function Home () {
        <div>
         <Navbar/>
        </div>
-       <div className="text-gray-50 md:w-full flex md:flex-row w-full flex-col justify-evenly">
+       <div className="text-gray-50  md:w-full flex md:flex-row w-full flex-col  justify-evenly">
         <div className="md:my-auto mx-auto sm:mt-10">
-            <h1 className="md:text-6xl text-3xl pb-3 pt-5 font-bold">
+            <h1 className="md:text-8xl text-3xl pb-3 pt-5 font-bold">
                 <div className="md:text-4xl text-xl pb-3">Hello, It's me</div>
                 RUBESH KUMAR R
             </h1>
-            <h2 className="md:text-4xl text-lg pb-5 font-semibold">And I'm a 
+            <h2 className="md:text-4xl text-lg pb-5 font-semibold">And I'm a passionate
                 <span className="contant pl-2" style={{"--i":3}} data-text="Frontend Developer">Frontend Developer</span>
                 <span className="contant pl-2" style={{"--i":2}} data-text="Backend Developer">Backend Developer</span>
                 <span className="contant pl-2" style={{"--i":1}} data-text="React Developer">React Developer</span>
@@ -35,13 +35,10 @@ function Home () {
                     <a className="socilaMediaIcons4 text-3xl " href="mailto:rubeshkumar135@gmail.com" target="_blank"><FaMailBulk/></a>
                 </div>
             </div>
-        </div>+
-        <div className="md:w-100 w-70 mx-auto">
+        </div>
+        <div className="md:w-130 w-70 mx-auto">
             <img src={Hero}/>
         </div>
-       </div>
-       <div>
-        <Footer/>
        </div>
        </>
     )
