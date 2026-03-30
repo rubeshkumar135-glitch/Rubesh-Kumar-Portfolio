@@ -38,7 +38,7 @@ function About() {
     <>
       <Navbar />
 
-      <div className="text-gray-50 w-full flex md:flex-row flex-col justify-evenly">
+      <div className="text-gray-50 w-full flex md:flex-row flex-col mt-8 justify-evenly">
         
         {/* Image */}
         <div className="md:w-100 w-70 mx-auto">

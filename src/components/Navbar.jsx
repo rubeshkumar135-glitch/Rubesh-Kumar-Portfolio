@@ -13,7 +13,7 @@ function Navbar() {
   const [button, setButton] = useState(false);
 
   return (
-    <div className="navbar flex justify-between md:px10 px-5 pb-4 items-center">
+    <div className="navbar flex justify-between md:px10 px-5 py-4 items-center">
       <NavLink to="/">
         <p className="md:text-4xl text-2xl font-semibold text-red-600 md:px-10">
           Rubesh Kumar R

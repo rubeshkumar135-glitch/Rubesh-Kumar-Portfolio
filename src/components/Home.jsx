@@ -38,7 +38,7 @@ function Home() {
     <>
       <Navbar />
 
-      <div className="text-gray-50 md:w-full flex md:flex-row w-full flex-col justify-evenly">
+      <div className="text-gray-50 md:w-full flex md:flex-row w-full flex-col my-4 justify-evenly">
         <div className="md:my-auto mx-auto md:px-0 px-6">
           <h1 className="md:text-5xl text-3xl pb-3 pt-10 font-semibold">
             <div className="md:text-3xl text-xl pb-3">Hello, It's me</div>
