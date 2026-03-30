@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import Navbar from "./Navbar";
 import "./Home.css";
 import { FaGithub, FaLinkedin, FaMailBulk } from "react-icons/fa";
-import { FaSquarePhone } from "react-icons/fa6";
 import Hero from "../assets/Hero.png";
 import Footer from "./Footer";
 

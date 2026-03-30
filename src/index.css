@@ -2,6 +2,13 @@
 *{
   font-family: cursive;
 }
+
+@media screen and (max-width: 768px) {
+  * {
+    font-family:serif;
+  }
+  
+}
 .perspective {
   perspective: 1000px;
 }
