@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./ShowImage.css"
-import myImage from "../assets/Hero.png";
+import Certification from "../assets/GuviCertification.png";
 
 function ShowImage() {
   const [show, setShow] = useState(false);
@@ -12,14 +12,14 @@ function ShowImage() {
         onClick={() => setShow(!show)}
         className="btn bg-red-600 text-gray-950 px-4 py-2 rounded-full font-semibold"
       >
-        Certificate
+        Certification
       </button>
 
       {show && (
         <img
-          src={myImage}
-          alt="My"
-          className="mt-5 md:w-90 sm:w-90 rounded"
+          src={Certification}
+          alt="Certification"
+          className="mt-5 md:w-160 sm:w-90 rounded"
         />
       )}
 

@@ -1,1 +1,11 @@
 @import "tailwindcss";
+*{
+  font-family: cursive;
+}
+.perspective {
+  perspective: 1000px;
+}
+
+.group:hover .group-hover\:rotate-y-6 {
+  transform: rotateY(6deg) rotateX(3deg) scale(1.05);
+}
