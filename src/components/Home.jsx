@@ -83,8 +83,8 @@ function Home() {
           </p>
           </div>
 
-          <div className="flex flex-row items-center">
-            <div className="btn py-2 md:px-10 md:w-46 w-38 md:mb-0 mb-3 px-5 mr-3 text-gray-950 bg-red-600 border-red-600 border-2 rounded-3xl font-semibold hover:bg-red-700 transition">
+          <div className="flex md:flex-row flex-col items-center gap-4">
+            <div className="btn py-2 md:px-10 md:w-46 w-36 md:mb-0 mb-3 px-5 mr-3 text-gray-950 bg-red-600 border-red-600 border-2 rounded-3xl font-semibold hover:bg-red-700 transition">
               <a href="/Rubesh_Kumar_Resume.pdf" download>
                 Download CV
               </a>
