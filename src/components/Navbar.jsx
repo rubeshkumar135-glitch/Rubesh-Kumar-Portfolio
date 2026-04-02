@@ -73,7 +73,7 @@ function Navbar() {
         />
 
         {button && (
-          <div className="text-gray-50 text-xs md:hidden flex flex-col gap-4 mr-6 mt-9 absolute right-0 bg-gray-800/60 backdrop-blur-lg rounded-lg p-4  shadow-lg">
+          <div className="text-gray-50 text-xs md:hidden flex flex-col z-10 gap-4 mr-6 mt-9 absolute right-0 bg-gray-800/60 backdrop-blur-lg rounded-lg p-4  shadow-lg">
             <NavLink
               to="/"
               onClick={() => setButton(false)}

@@ -36,7 +36,7 @@ function About() {
 
       <div className="text-gray-50 w-full flex md:flex-row flex-col my-10 justify-evenly">
         <div className="md:w-100 w-70 mx-auto my-auto md:px-0 px-6 flex justify-center">
-          <div className="relative group">
+          <div className="relative group ">
             <div
               className="absolute inset-0 rounded-full blur-xl opacity-40 
                     bg-linear-to-r from-red-600/90 to-gray-600/90 
