@@ -1,8 +1,19 @@
-.btn{
-    transition: .5s;
+@keyframes fadeZoom {
+  0% {
+    opacity: 0;
+    transform: scale(0.8) translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
 }
-.btn:hover{
-    background-color: rgb(31, 30, 30);
-    color: #ffffff;
-    transition: 1s;
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
 }

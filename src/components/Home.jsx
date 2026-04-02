@@ -22,12 +22,9 @@ function Home() {
         <Navbar />
         <div className="flex items-center justify-center h-screen bg-black">
           <div className="flex flex-col items-center gap-4">
-            
             <div className="w-12 h-12 border-4 border-red-500 border-t-transparent rounded-full animate-spin"></div>
 
-            <p className="text-white text-lg animate-pulse">
-              Loading Home...
-            </p>
+            <p className="text-white text-lg animate-pulse">Loading Home...</p>
           </div>
         </div>
       </>
@@ -46,41 +43,40 @@ function Home() {
           </h1>
 
           <h2 className="md:text-3xl text-lg pb-5 font-semibold">
-            And I'm a
+            <span className="md:pr-2 pr-0">And I'm a</span>
             <span
               className="contant pl-2"
               style={{ "--i": 3 }}
-              data-text="Frontend Developer"
+              data-text="MERN Stack Developer"
             >
-              Frontend Developer
+              MERN Stack Developer
             </span>
             <span
               className="contant pl-2"
               style={{ "--i": 2 }}
-              data-text="Backend Developer"
+              data-text="MERN Stack Developer"
             >
-              Backend Developer
+              MERN Stack Developer
             </span>
             <span
               className="contant pl-2"
               style={{ "--i": 1 }}
-              data-text="React Developer"
+              data-text="MERN Stack Developer"
             >
-              React Developer
+              MERN Stack Developer
             </span>
           </h2>
 
           <div>
-           
-          <p className="text-gray-400 md:text-xl text-lg leading-relaxed mb-3 w-full md:w-160">
-            I am a passionate fresher MERN Stack Developer skilled in building 
-            responsive and scalable web applications using MongoDB, Express.js, 
-            React.js, and Node.js.
-          </p>
+            <p className="text-gray-400 md:text-xl text-lg leading-relaxed mb-3 w-full md:w-160">
+              I am a passionate junior MERN Stack Developer skilled in building
+              responsive and scalable web applications using MongoDB,
+              Express.js, React.js, and Node.js.
+            </p>
 
-          <p className="text-gray-400  md:text-lg text-md italic mb-6 w-full md:w-160">
-            👉 Turning ideas into real-world web applications.
-          </p>
+            <p className="text-gray-400  md:text-lg text-md italic mb-6 w-full md:w-160">
+              👉 Turning ideas into real-world web applications.
+            </p>
           </div>
 
           <div className="flex flex-row items-center">
@@ -119,8 +115,12 @@ function Home() {
           </div>
         </div>
 
-        <div className="md:w-100 w-70 mx-auto">
-          <img src={Hero} alt="Hero" />
+        <div className="md:w-100 w-70 mx-auto  rounded-2xl">
+          <img
+            src={Hero}
+            alt="Hero"
+            className="w-full h-auto transform transition duration-500 ease-in-out hover:scale-110"
+          />
         </div>
       </div>
 
