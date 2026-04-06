@@ -14,7 +14,7 @@ const projects = [
       "A React-based movie search app that fetches real-time data from the TMDB API to explore and view movie details.",
     image: MovieSearch,
     tech: ["React", "Tailwind"],
-    live: "https://luminous-smakager-3ebdd0.netlify.app/",
+    live: "https://movie-review-app-coral.vercel.app/",
     github:
       "https://github.com/rubeshkumar135-glitch/Movie-Review-App.git",
   },
